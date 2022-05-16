@@ -242,7 +242,7 @@ i.fa-solid.fa-phone {
 }
 
 .camera {
-    background-image: url('img/icons/cctv.svg');
+    background-image: url('../img/icons/cctv.svg');
     background-position: center;
     background-repeat: no-repeat;
     width: 120px;
