@@ -341,7 +341,7 @@ i.fa-solid.fa-phone {
 
 
 .servises>div>p {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
@@ -634,49 +634,40 @@ i.fa-solid.fa-phone {
 
 .footer {
     padding-top: 25px;
-    padding-left: 150px;
-    padding-right: 150px;
     background: rgba(0, 0, 0, 0.677);
+    display: flex;
+    flex-direction: column;
+}
+.topFooter{
+    width: 100%;
+    background: rgb(131, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    
 }
 
-.wrapFooter {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
+.wrapCompass{}
+
+.compass {
+
 }
 
-.topFooter {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.buttonCompass {
 }
 
-.compass {}
+.footerMenu ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
 
-.compassText {}
+.footerMenu ul li{
+    padding-right: 10px;
+}
 
-.fa {}
+.footerMenu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
 
-.wrapCompasBtn {}
 
-.compassBtn {}
-
-.compassBtn a {}
-
-.footerMenu {}
-
-.footerItemMenu {}
-
-.itemMenuCol-1 {}
-
-.itemMenuTitle {}
-
-.itemMenuCol-2 {}
-
-.itemMenuCol-3 {}
-
-.itemMenuCol-4 {}
-
-.itemMenuCol-5 {}
-
-.bottomFooter {}
-
-.copy {}

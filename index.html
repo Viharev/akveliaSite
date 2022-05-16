@@ -31,16 +31,11 @@
                 <label for="menu" class="toggleMenu"><i class="fa-solid fa-bars"></i>меню</label>
 
                 <ul>
-                    <li> <a href="#"><i class="fa-solid fa-house"></i>Главная</a></li>
-                    <li><a href="#"><i class="fa-solid fa-door-open"></i>О сауне</a></li>
-                    <li><a href="#"><i class="fa-solid fa-camera"></i>Фотогалерея</a></li>
-
-                    <!-- <li><i class="fa-solid fa-credit-card"></i>Цены</li> -->
-                    <li><a href="#"><i class="fa-solid fa-address-card"></i>Контакты</a></li>
+                    <li> <a href="/"><i class="fa-solid fa-house"></i>Главная</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-door-open"></i>О нас</a></li>
                     <li>
-
-                        <a href=""><i class="fa-solid fa-list-check"></i>Услуги</a>
-                        <input type="checkbox" name="toggle" class="toggleSubMenu" id="subMenu">
+                        <a href="#servises"><i class="fa-solid fa-list-check"></i>Услуги</a>
+                        <!-- <input type="checkbox" name="toggle" class="toggleSubMenu" id="subMenu">
                         <label for="subMenu" class="toggleSubMenu"><i class="fa-solid"></i></label>
                         <ul>
                             <li><a href="#"><i class="fa-solid fa-person"></i>мужской четверг</a></li>
@@ -48,9 +43,13 @@
                             <li><a href="#"><i class="fa-solid fa-spa"></i>массаж/спа</a></li>
                             <li><a href="#"><i class="fa-solid fa-champagne-glasses"></i>для двоих</a></li>
                             <li><a href="#"><i class="fa-solid fa-gift"></i>подарочные сертификаты</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
-                </ul>
+                    <li><a href="#galery"><i class="fa-solid fa-camera"></i>Фотогалерея</a></li>
+
+                    <!-- <li><i class="fa-solid fa-credit-card"></i>Цены</li> -->
+                    <li><a href="#contact"><i class="fa-solid fa-address-card"></i>Контакты</a></li>
+                    </ul>
             </nav>
         </header>
 
@@ -74,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="sectionThree">
+            <div class="sectionThree" id="servises">
                 <h2>к вашим услугам</h2>
                 <div class="servises">
                     <div class="mansThursday">
@@ -99,7 +98,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sectionFor">
+            <div class="sectionFor" id="galery">
                 <h2>Фотогалерея</h2>
                 <div class="wrapGalery">
                     <div class="galery">
@@ -139,7 +138,7 @@
                 </div>
             </div>
 
-            <div class="sectionFive">
+            <div class="sectionFive" id="about">
                 <div class="wrapAbout">
                     <h1 class="titleAbout">пожалуй, лучшая сауна в Кирове</h1>
                     <div class="about">
@@ -212,66 +211,36 @@
                                     </div>
                                 </div>
                                 <div class="buttonWrap">
-                                    <!-- <div class="btnBlockForm">Задать вопрос</div> -->
                                     <button class="btnBlockForm">Задать вопрос</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- <div id="contact"></div> -->
             </div>
         </body>
-        <footer class="footer">
+        <footer class="footer" id="contact">
             <div class="wrapFooter">
-
                 <div class="topFooter">
-                    <div class="compass">
-                        <div class="compassText">
-                            <i class='fa'></i>
-                            г. Киров, ул. Семаковская 41
+                    <div class="wrapCompass">
+                        <div class="compass" >
+                            <p>г. Киров</p>
+                            <p>ул. Семаковская 41</p>
                         </div>
-                        <div class="wrapCompasBtn">
-                            <div class="compassBtn">
-                                <a href="#">схема проезда</a>
-                            </div>
-                        </div>
+                        <a href="#"><button class="buttonCompass">как проехать</button></a>
                     </div>
                     <div class="footerMenu">
-                        <div class="footerItemMenu">
-                            <div class="itemMenuCol-1">
-                                <div class="itemMenuTitle">
-                                    <a href="#">Главная</a>
-                                </div>
-                            </div>
-                            <div class="itemMenuCol-2">
-                                <div class="itemMenuTitle">
-                                    <a href="#">О нас</a>
-                                </div>
-                            </div>
-                            <div class="itemMenuCol-3">
-                                <div class="itemMenuTitle">
-                                    <a href="#">Акции</a>
-                                </div>
-                            </div>
-                            <div class="itemMenuCol-4">
-                                <div class="itemMenuTitle">
-                                    <a href="#">Услуги</a>
-                                </div>
-                            </div>
-                            <div class="itemMenuCol-5">
-                                <div class="itemMenuTitle">
-                                    <a href="#">Контакты</a>
-                                </div>
-                            </div>
-
-                        </div>
+                        <ul>
+                            <li><a href="/">Главная</a></li>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#galery">Фотогалерея</a></li>
+                            <li><a href="#servises">Услуги</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="bottomFooter">
-                    <div class="copy">
-                        <p>Все права защищены</p>
-                    </div>
-
+                    <p>Все права защищены Akvelia Kirov</p>
                 </div>
             </div>
         </footer>
@@ -279,7 +248,8 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="js/slider.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
 </body>
 
 </html>
