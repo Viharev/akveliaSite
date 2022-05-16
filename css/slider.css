@@ -1,0 +1,116 @@
+
+.slider{
+    position: relative;
+    border-bottom: 5px solid rgb(120, 0, 0);
+}
+
+.slideOne{
+    background-image: url('/img/parilka.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}   
+
+.slideTwo{
+    background-image: url('/img/billiard.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+} 
+
+.slideThree{
+    background-image: url('/img/parilka2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}   
+
+.slideFor{
+    background-image: url('/img/bassein.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+
+.slick-arrow{    
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    margin: -10px 0 0 0;
+}
+.slick-arrow:hover{
+    opacity: .4;
+    cursor: pointer;
+}
+
+.slick-arrow.slick-disabled{
+    opacity: .2;
+}
+
+.slick-arrow.slick-prev{
+    left: 0;
+    background: url('/img/icons/left.svg') 0 0 / 100% no-repeat;
+}
+
+.slick-arrow.slick-next{
+    right: 0;
+    background: url('/img/icons/right.svg') 0 0 / 100% no-repeat;
+}
+
+ul.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+    left: 50%;
+}
+
+ul.slick-dots button:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+ul.slick-dots li{
+    list-style: none;
+    margin: 0 5px;
+}
+
+ul.slick-dots button{
+    font-size: 0;
+    height: 16px;
+    background: #fff;
+    border-radius: 50%;    
+    border: 2px #000 solid;
+}
+
+ul.slick-dots li.slick-active button{
+    background-color: black;
+    border: 2px rgb(255, 255, 255) solid;
+}

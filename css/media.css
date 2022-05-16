@@ -1,0 +1,400 @@
+input.toggleMenu {
+    display: none;
+}
+
+.menu>label.toggleMenu {
+    display: none;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu>label>i.fa-solid {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.menu>ul>li>ul>li>a>i.fa-solid {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+input[type="checkbox" i],
+.menu>ul>li>label.toggleSubMenu {
+    display: none;
+}
+
+
+
+
+
+@media (max-width:1440px) {
+    .galery div {
+        width: 300px;
+        height: 270px;
+    }
+
+    .servises {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width: 1023px) {
+    .menu>ul>li>a {
+        width: 100%;
+    }
+
+    .menu>ul>li>ul>li>a {
+        width: 100%;
+    }
+
+    .adress {
+        display: none;
+    }
+
+    input.toggleMenu:checked+label.toggleMenu {
+        background: rgba(0, 0, 0, 0.1);
+        color: #fff;
+    }
+
+    .logoMenu {
+        display: block;
+        font-size: 20px;
+        padding: 15px 40px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Marck Script', cursive;
+    }
+
+    .menu {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menu>ul {
+        z-index: 150;
+        display: block;
+        /* display: none; */
+        max-height: 0;
+        transition: max-height .3s;
+    }
+
+    .menu>label.toggleMenu {
+        display: block;
+    }
+
+    input.toggleMenu:checked~ul {
+        display: block;
+        max-height: 500px;
+        transition: max-height 1s;
+    }
+
+    input.toggleSubMenu:checked~ul {
+        display: block;
+        position: relative;
+        max-height: 500px;
+        transition: max-height 2s;
+    }
+
+    .menu>ul>li>ul {
+        max-height: 0;
+        transition: max-height 2s;
+    }
+
+    input.toggleSubMenu:checked+label.toggleSubMenu {
+        background: rgba(0, 0, 0, 0.246);
+        color: #fff;
+    }
+
+    .menu>ul>li>label.toggleSubMenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        display: block;
+    }
+
+    .menu>ul>li>label.toggleSubMenu>i.fa-solid::before {
+        content: '\f0d7';
+        color: #fff;
+    }
+
+    .menu>ul>li>label.toggleSubMenu>i.fa-solid {
+        position: absolute;
+        right: 25px;
+        top: 13px;
+    }
+
+    input.toggleSubMenu:checked~label.toggleSubMenu>i.fa-solid::before {
+        content: '\f0d8';
+        color: #fff;
+    }
+
+    .galery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        justify-items: center;
+        padding: 50px;
+    }
+
+    .galery {
+        display: grid;
+        gap: 5px;
+    }
+
+    .galery div {
+        width: 300px;
+        height: 270px;
+    }
+
+    .servises {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+
+
+@media(max-width:768px) {
+    .menu>ul>li>a {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    .adress,
+    .schema {
+        display: none;
+    }
+
+    i.fa-solid.fa-phone {
+        font-size: 20px;
+    }
+
+    .phone {
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo {
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* sectionTwo */
+
+    .advantages {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .advantages>div>p {
+        padding-top: 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .advantages p {
+        padding-left: 18px;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .blockCamera {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        border-bottom: 1px solid #000;
+
+    }
+
+    .personal {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        border-bottom: 1px solid #000;
+    }
+
+    .city {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        border-bottom: 1px solid #000;
+    }
+
+    .saunaPool {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        border-bottom: 1px solid #000;
+    }
+
+    .bedroom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        border-bottom: 1px solid #000;
+    }
+
+    .camera,
+    .bell,
+    .pool,
+    .thumbs,
+    .bed {
+        width: 120px;
+        height: 120px;
+
+    }
+
+    .mansThursday,
+    .womansTuesday,
+    .spa,
+    .romantic,
+    .gifts {
+        width: 100%;
+    }
+
+    .galery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        justify-items: center;
+        padding: 50px;
+
+
+    }
+
+    .galery div {
+        width: 450px;
+        height: 350px;
+    }
+
+    .servises {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .mansImg,
+    .womansImg,
+    .spaImg,
+    .romanticImg,
+    .giftsImg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .sectionThree h2 {
+        font-size: 18px;
+    }
+
+    .titleQuestions::after {
+        display: none;
+    }
+
+
+}
+
+@media(max-width:530px) {
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightNav {
+        display: none;
+    }
+
+    i.fa-solid.fa-phone {
+        font-size: 15px;
+    }
+
+    .camera,
+    .bell,
+    .pool,
+    .thumbs,
+    .bed {
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+}
+
+
+@media(max-width:425px) {
+    .galery div {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media(max-width:375px) {
+
+    .camera,
+    .bell,
+    .pool,
+    .thumbs,
+    .bed {
+        width: 70px;
+        height: 70px;
+
+    }
+
+    .advantages>div>p {
+        font-size: 12px;
+    }
+
+    .galery div {
+        width: 270px;
+        height: 270px;
+    }
+
+}
+
+@media(max-width:320px) {
+    .galery {
+        display: grid;
+        gap: 2px;
+    }
+
+    .galery div {
+        width: 250px;
+        height: 250px;
+    }
+}
