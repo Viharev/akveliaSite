@@ -242,7 +242,7 @@ i.fa-solid.fa-phone {
 }
 
 .camera {
-    background-image: url('/img/icons/cctv.svg');
+    background-image: url('akveliaSite/img/icons/cctv.svg');
     background-position: center;
     background-repeat: no-repeat;
     width: 120px;
@@ -259,7 +259,7 @@ i.fa-solid.fa-phone {
 }
 
 .bell {
-    background-image: url('/img/icons/bell.svg');
+    background-image: url('akveliaSite/img/icons/bell.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -276,7 +276,7 @@ i.fa-solid.fa-phone {
 }
 
 .thumbs {
-    background-image: url('/img/icons/thumbsup.svg');
+    background-image: url('akveliaSite/img/icons/thumbsup.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -293,7 +293,7 @@ i.fa-solid.fa-phone {
 }
 
 .pool {
-    background-image: url('/img/icons/pool.svg');
+    background-image: url('akveliaSite/img/icons/pool.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -310,7 +310,7 @@ i.fa-solid.fa-phone {
 }
 
 .bed {
-    background-image: url('/img/icons/bedroom.svg');
+    background-image: url('akveliaSite/img/icons/bedroom.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -356,7 +356,7 @@ i.fa-solid.fa-phone {
 }
 
 .mansImg {
-    background-image: url('/img/imgMens.jpeg');
+    background-image: url('akveliaSite/img/imgMens.jpeg');
     width: 200px;
     height: 200px;
     background-position: center;
@@ -371,7 +371,7 @@ i.fa-solid.fa-phone {
 }
 
 .womansImg {
-    background-image: url('/img/imgWomans.jpeg');
+    background-image: url('akveliaSite/img/imgWomans.jpeg');
     width: 200px;
     height: 200px;
     background-position: center;
@@ -387,7 +387,7 @@ i.fa-solid.fa-phone {
 }
 
 .spaImg {
-    background-image: url('/img/imgSpa.jpeg');
+    background-image: url('akveliaSite/img/imgSpa.jpeg');
     width: 200px;
     height: 200px;
     background-position: center;
@@ -402,7 +402,7 @@ i.fa-solid.fa-phone {
 }
 
 .romanticImg {
-    background-image: url('/img/imgRomantic.jpeg');
+    background-image: url('akveliaSite/img/imgRomantic.jpeg');
     width: 200px;
     height: 200px;
     background-position: center;
@@ -417,7 +417,7 @@ i.fa-solid.fa-phone {
 }
 
 .giftsImg {
-    background-image: url('/img/imgPresent.jpeg');
+    background-image: url('akveliaSite/img/imgPresent.jpeg');
     width: 200px;
     height: 200px;
     background-position: center;
@@ -584,7 +584,7 @@ i.fa-solid.fa-phone {
 
 .titleQuestions::after {
     content: '';
-    background-image: url('/img/icons/rightArrow.svg');
+    background-image: url('akveliaSite/img/icons/rightArrow.svg');
     width: 45px;
     height: 45px;
     position: absolute;
