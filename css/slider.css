@@ -14,7 +14,7 @@
 }   
 
 .slideTwo{
-    background-image: url('/img/billiard.jpeg');
+    background-image: url('akveliaSite/img/billiard.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -23,7 +23,7 @@
 } 
 
 .slideThree{
-    background-image: url('/img/parilka2.jpeg');
+    background-image: url('akveliaSite/img/parilka2.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -32,7 +32,7 @@
 }   
 
 .slideFor{
-    background-image: url('/img/bassein.jpeg');
+    background-image: url('akveliaSite/img/bassein.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
