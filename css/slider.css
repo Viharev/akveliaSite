@@ -72,12 +72,12 @@
 
 .slick-arrow.slick-prev{
     left: 0;
-    background: url('/img/icons/left.svg') 0 0 / 100% no-repeat;
+    background: url('akveliaSite/img/icons/left.svg') 0 0 / 100% no-repeat;
 }
 
 .slick-arrow.slick-next{
     right: 0;
-    background: url('/img/icons/right.svg') 0 0 / 100% no-repeat;
+    background: url('akveliaSite/img/icons/right.svg') 0 0 / 100% no-repeat;
 }
 
 ul.slick-dots{
