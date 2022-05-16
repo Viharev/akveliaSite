@@ -450,7 +450,7 @@ i.fa-solid.fa-phone {
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     justify-items: center;
-    padding: 50px;
+    /* padding: 50px; */
 
 }
 
