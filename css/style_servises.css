@@ -1,6 +1,28 @@
-.blockOneHeader {
-    height: 50px;
+.blockOne{
+    height: 120px;
     background: rgba(0, 0, 0, 0.145);
+}
+
+.navPag{
+    display: flex;
+    list-style: none;
+    height: 50px;
+    align-items: center;
+}
+.navPag li a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.activeLi{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.blockOneHeader {
+    align-items: center;
+    text-transform: uppercase;
 }
 .blockSideBar {
     display: flex;
@@ -45,5 +67,7 @@
     width: 70%;
     background: rgb(0, 0, 0);
 }
+
+
 
 
