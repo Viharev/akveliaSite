@@ -8,7 +8,7 @@
 
 .header {
     width: 100%;
-    /* background: rgb(136, 136, 136); */
+    background: rgb(120, 120, 120);
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
@@ -22,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
 }
 
 .leftNav {
@@ -457,37 +457,60 @@ i.fa-solid.fa-phone {
 .photo1 {
     width: 330px;
     height: 300px;
-    background: #000;
+    background-image: url('../img/galeryFront/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .photo2 {
     width: 330px;
     height: 300px;
-    background: #000;
+    /* background: #000; */
+    background-image: url('../img/galeryFront/2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .photo3 {
     width: 330px;
     height: 300px;
-    background: #000;
+    /* background: #000; */
+    background-image: url('../img/galeryFront/3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .photo4 {
     width: 330px;
     height: 300px;
-    background: #000;
+    /* background: #000; */
+    background-image: url('../img/galeryFront/4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .photo5 {
     width: 330px;
     height: 300px;
-    background: #000;
+    /* background: #000; */
+    background-image: url('../img/galeryFront/5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .photo6 {
     width: 330px;
     height: 300px;
-    background: #000;
+    /* background: #000; */
+    background-image: url('../img/galeryFront/6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -515,7 +538,11 @@ i.fa-solid.fa-phone {
     /* position: absolute; */
     width: 300px;
     height: 300px;
-    background: rgba(0, 0, 0, 0.122);
+    /* background: rgba(0, 0, 0, 0.122); */
+   background-image: url('../img/atmosphere.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
     left: 50px;
     margin: 10px;
 }
@@ -550,7 +577,11 @@ i.fa-solid.fa-phone {
     margin: 10px;
     width: 300px;
     height: 300px;
-    background: rgba(0, 0, 0, 0.122);
+    /* background: rgba(0, 0, 0, 0.122); */
+    background-image: url('../img/veniki.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     left: 50px;
 }
 
@@ -640,7 +671,7 @@ i.fa-solid.fa-phone {
 }
 .topFooter{
     width: 100%;
-    background: rgb(131, 0, 0);
+    /* background: rgb(131, 0, 0); */
     display: flex;
     justify-content: space-between;
     
@@ -668,6 +699,12 @@ i.fa-solid.fa-phone {
 .footerMenu ul li a{
     text-decoration: none;
     color: #fff;
+}
+
+.bottomFooter{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
 }
 
 

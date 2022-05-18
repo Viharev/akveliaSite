@@ -5,7 +5,7 @@
 }
 
 .slideOne{
-    background-image: url('../img/parilka.jpeg');
+    background-image: url('../img/parilka.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -14,7 +14,7 @@
 }   
 
 .slideTwo{
-    background-image: url('../img/billiard.jpeg');
+    background-image: url('../img/billiard.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -23,7 +23,7 @@
 } 
 
 .slideThree{
-    background-image: url('../img/parilka2.jpeg');
+    background-image: url('../img/decor.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -32,7 +32,7 @@
 }   
 
 .slideFor{
-    background-image: url('../img/bassein.jpeg');
+    background-image: url('../img/bassein.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
