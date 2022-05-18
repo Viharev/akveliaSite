@@ -4,3 +4,6 @@
     align-items: center;
     position: relative;
 }
+.blockOneHeader {
+    height: 50px;
+}
