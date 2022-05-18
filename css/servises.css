@@ -1,9 +1,16 @@
-.menu ul {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
+.menu ul{
 }
 .blockOneHeader {
     height: 50px;
+}
+
+.navPag{
+    display: flex;
+    list-style: none;
+}
+.navPag li a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    margin: 15px;
 }
