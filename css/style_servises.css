@@ -9,8 +9,38 @@
 
 .leftBar {
     width: 30%;
-    background: rgb(255, 1, 1);
+    background: rgba(255, 1, 1, 0.052);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.leftBar ul{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    list-style: none;
+    text-decoration: none;
+}
+
+.leftBar ul li{
+    padding: 15px 25px;
+    min-width: 280px;
+
+}
+
+.leftBar ul a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.leftBar ul li:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+
 .rightBar {
     width: 70%;
     background: rgb(0, 0, 0);
