@@ -200,7 +200,7 @@ i.fa-solid.fa-phone {
 
 .body {}
 
-.sectionTwo{
+.sectionTwo {
     padding-bottom: 50px;
     background: -webkit-linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
     background: -moz-linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
@@ -483,7 +483,7 @@ i.fa-solid.fa-phone {
     box-shadow: 1px 3px 5px rgb(0, 0, 0);
 }
 
-.photo1:hover{
+.photo1:hover {
     box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
@@ -497,7 +497,7 @@ i.fa-solid.fa-phone {
     box-shadow: 1px 3px 5px rgb(0, 0, 0);
 }
 
-.photo2:hover{
+.photo2:hover {
     box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
@@ -511,7 +511,7 @@ i.fa-solid.fa-phone {
     box-shadow: 1px 3px 5px rgb(0, 0, 0);
 }
 
-.photo3:hover{
+.photo3:hover {
     box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
@@ -525,7 +525,7 @@ i.fa-solid.fa-phone {
     box-shadow: 1px 3px 5px rgb(0, 0, 0);
 }
 
-.photo4:hover{
+.photo4:hover {
     box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
@@ -539,7 +539,7 @@ i.fa-solid.fa-phone {
     box-shadow: 1px 3px 5px rgb(0, 0, 0);
 }
 
-.photo5:hover{
+.photo5:hover {
     box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
@@ -553,7 +553,7 @@ i.fa-solid.fa-phone {
     box-shadow: 1px 3px 5px rgb(0, 0, 0);
 }
 
-.photo6:hover{
+.photo6:hover {
     box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
@@ -589,10 +589,10 @@ i.fa-solid.fa-phone {
     width: 300px;
     height: 300px;
     /* background: rgba(0, 0, 0, 0.122); */
-   background-image: url('../img/atmosphere.jpg');
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
+    background-image: url('../img/atmosphere.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     left: 50px;
     margin: 10px;
 }
@@ -621,7 +621,7 @@ i.fa-solid.fa-phone {
     color: #fff;
 }
 
-.textOne a{
+.textOne a {
     text-decoration: none;
     cursor: pointer;
     color: rgb(180, 180, 180);
@@ -629,7 +629,7 @@ i.fa-solid.fa-phone {
     border-radius: 5px;
 }
 
-.textOne a:hover{
+.textOne a:hover {
     background: rgba(255, 255, 255, 0.3);
 }
 
@@ -738,48 +738,45 @@ i.fa-solid.fa-phone {
     display: flex;
     flex-direction: column;
 }
-.topFooter{
+
+.topFooter {
     width: 100%;
     /* background: rgb(131, 0, 0); */
     display: flex;
     justify-content: space-between;
-    
-}
-
-.wrapCompass{}
-
-.compass {
 
 }
 
-.buttonCompass {
-}
+.wrapCompass {}
 
-.footerMenu ul{
+.compass {}
+
+.buttonCompass {}
+
+.footerMenu ul {
     display: flex;
     list-style: none;
     padding: 20px;
 }
 
-.footerMenu ul li{
+.footerMenu ul li {
     padding-right: 10px;
 }
 
-.footerMenu ul li a{
+.footerMenu ul li a {
     text-decoration: none;
     color: #fff;
 }
 
-.bottomFooter{
+.bottomFooter {
     display: flex;
     justify-content: flex-end;
     margin-right: 25px;
 }
 
-.bottomFooter p{
+.bottomFooter p {
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 
 }
-
