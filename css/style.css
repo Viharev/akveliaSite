@@ -200,12 +200,16 @@ i.fa-solid.fa-phone {
 
 .body {}
 
+.sectionTwo{
+    padding-bottom: 50px;
+}
+
 .sectionTwo h2 {
     text-align: center;
     text-transform: uppercase;
     font-size: 32px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 
@@ -324,11 +328,12 @@ i.fa-solid.fa-phone {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .sectionThree h2 {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     font-size: 32px;
     text-transform: uppercase;
 }
@@ -430,16 +435,17 @@ i.fa-solid.fa-phone {
 .sectionFor {
     border-top: 5px solid rgb(120, 0, 0);
     width: 100%;
-    background: rgba(0, 0, 0, 0.124);
+    background: rgba(0, 0, 0, 0.8);
     border-bottom: 5px solid rgb(120, 0, 0);
+    padding-bottom: 30px;
 }
 
 .sectionFor>h2 {
     font-size: 32px;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 
 }
 
@@ -515,7 +521,8 @@ i.fa-solid.fa-phone {
 
 
 .sectionFive {
-    border-top: 5px solid rgb(120, 0, 0)
+    border-top: 5px solid rgb(120, 0, 0);
+    padding-bottom: 30px;
 }
 
 .wrapAbout {}
@@ -524,8 +531,8 @@ i.fa-solid.fa-phone {
     font-size: 28px;
     text-align: start;
     text-transform: uppercase;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .about {
@@ -551,16 +558,16 @@ i.fa-solid.fa-phone {
     font-size: 28px;
     text-align: start;
     text-transform: uppercase;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .aboutText h3 {
     font-size: 28px;
     text-align: start;
     text-transform: uppercase;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .textOne {
@@ -571,6 +578,9 @@ i.fa-solid.fa-phone {
 .textList {
     margin: 20px;
     font-size: 22px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .aboutImgTwo {
@@ -707,4 +717,10 @@ i.fa-solid.fa-phone {
     margin-right: 25px;
 }
 
+.bottomFooter p{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
 
