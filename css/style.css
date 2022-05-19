@@ -8,7 +8,7 @@
 
 .header {
     width: 100%;
-    background: rgb(120, 120, 120);
+    background: rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
@@ -202,6 +202,9 @@ i.fa-solid.fa-phone {
 
 .sectionTwo{
     padding-bottom: 50px;
+    background: -webkit-linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
+    background: -moz-linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
 }
 
 .sectionTwo h2 {
@@ -210,6 +213,7 @@ i.fa-solid.fa-phone {
     font-size: 32px;
     padding-top: 70px;
     padding-bottom: 70px;
+    color: #fff;
 }
 
 
@@ -230,6 +234,7 @@ i.fa-solid.fa-phone {
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 25px;
+    color: #fff;
 }
 
 .advantages div {
@@ -246,12 +251,11 @@ i.fa-solid.fa-phone {
 }
 
 .camera {
-    background-image: url('../img/icons/cctv.svg');
+    /* background-image: url('../img/icons/cctv.svg'); */
     background-position: center;
     background-repeat: no-repeat;
     width: 120px;
     height: 120px;
-
 }
 
 .personal {
@@ -263,7 +267,7 @@ i.fa-solid.fa-phone {
 }
 
 .bell {
-    background-image: url('../img/icons/bell.svg');
+    /* background-image: url('../img/icons/bell.svg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -280,7 +284,7 @@ i.fa-solid.fa-phone {
 }
 
 .thumbs {
-    background-image: url('../img/icons/thumbsup.svg');
+    /* background-image: url('../img/icons/thumbsup.svg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -297,7 +301,7 @@ i.fa-solid.fa-phone {
 }
 
 .pool {
-    background-image: url('../img/icons/pool.svg');
+    /* background-image: url('../img/icons/pool.svg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -314,7 +318,7 @@ i.fa-solid.fa-phone {
 }
 
 .bed {
-    background-image: url('../img/icons/bedroom.svg');
+    /* background-image: url('../img/icons/bedroom.svg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -329,6 +333,9 @@ i.fa-solid.fa-phone {
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
+    background: -webkit-linear-gradient(180deg, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
+    background: -moz-linear-gradient(180deg, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
 }
 
 .sectionThree h2 {
@@ -336,6 +343,7 @@ i.fa-solid.fa-phone {
     padding-bottom: 70px;
     font-size: 32px;
     text-transform: uppercase;
+    color: #fff;
 }
 
 
@@ -352,6 +360,7 @@ i.fa-solid.fa-phone {
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
+    color: #fff;
 
 }
 
@@ -433,10 +442,13 @@ i.fa-solid.fa-phone {
 }
 
 .sectionFor {
-    border-top: 5px solid rgb(120, 0, 0);
+    border-top: 5px solid rgb(255, 0, 0);
     width: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    border-bottom: 5px solid rgb(120, 0, 0);
+    /* background: rgba(0, 0, 0, 0.8); */
+    background: -webkit-linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
+    background: -moz-linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
+    border-bottom: 5px solid rgb(255, 0, 0);
     padding-bottom: 30px;
 }
 
@@ -446,6 +458,7 @@ i.fa-solid.fa-phone {
     text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
+    color: #fff;
 
 }
 
@@ -467,62 +480,91 @@ i.fa-solid.fa-phone {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0);
+}
+
+.photo1:hover{
+    box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
 .photo2 {
     width: 330px;
     height: 300px;
-    /* background: #000; */
     background-image: url('../img/galeryFront/2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0);
+}
+
+.photo2:hover{
+    box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
 .photo3 {
     width: 330px;
     height: 300px;
-    /* background: #000; */
     background-image: url('../img/galeryFront/3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0);
+}
+
+.photo3:hover{
+    box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
 .photo4 {
     width: 330px;
     height: 300px;
-    /* background: #000; */
     background-image: url('../img/galeryFront/4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0);
+}
+
+.photo4:hover{
+    box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
 .photo5 {
     width: 330px;
     height: 300px;
-    /* background: #000; */
     background-image: url('../img/galeryFront/5.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0);
+}
+
+.photo5:hover{
+    box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
 .photo6 {
     width: 330px;
     height: 300px;
-    /* background: #000; */
     background-image: url('../img/galeryFront/6.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0);
+}
+
+.photo6:hover{
+    box-shadow: 5px 6px 5px rgb(0, 0, 0);
 }
 
 
 .sectionFive {
-    border-top: 5px solid rgb(120, 0, 0);
+    border-top: 5px solid rgb(255, 0, 0);
     padding-bottom: 30px;
+    padding-left: 30px;
+    background: -webkit-linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
+    background: -moz-linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
 }
 
 .wrapAbout {}
@@ -533,6 +575,7 @@ i.fa-solid.fa-phone {
     text-transform: uppercase;
     padding-top: 70px;
     padding-bottom: 70px;
+    color: #fff;
 }
 
 .about {
@@ -560,6 +603,7 @@ i.fa-solid.fa-phone {
     text-transform: uppercase;
     padding-top: 70px;
     padding-bottom: 70px;
+    color: #fff;
 }
 
 .aboutText h3 {
@@ -568,11 +612,25 @@ i.fa-solid.fa-phone {
     text-transform: uppercase;
     padding-top: 70px;
     padding-bottom: 70px;
+    color: #fff;
 }
 
 .textOne {
     margin: 10px;
     font-size: 26px;
+    color: #fff;
+}
+
+.textOne a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(180, 180, 180);
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.textOne a:hover{
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .textList {
@@ -581,6 +639,7 @@ i.fa-solid.fa-phone {
     padding-left: 50px;
     padding-bottom: 30px;
     padding-top: 30px;
+    color: #fff;
 }
 
 .aboutImgTwo {
@@ -675,7 +734,7 @@ i.fa-solid.fa-phone {
 
 .footer {
     padding-top: 25px;
-    background: rgba(0, 0, 0, 0.677);
+    background: rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
 }
