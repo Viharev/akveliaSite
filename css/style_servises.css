@@ -1,6 +1,7 @@
 .blockOne{
     height: 120px;
-    background: rgba(0, 0, 0, 0.145);
+    background: rgba(0, 0, 0, 0.9);
+    border-bottom: 2.5px solid red;
 }
 
 .navPag{
@@ -9,9 +10,14 @@
     height: 50px;
     align-items: center;
 }
+
+.navPag li{
+    color: #fff;
+}
+
 .navPag li a{
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     margin: 15px;
 }
@@ -24,6 +30,12 @@
     align-items: center;
     text-transform: uppercase;
 }
+
+.blockOneHeader h1{
+    padding-left: 20px;
+    color: #fff;
+}
+
 .blockSideBar {
     display: flex;
     height: 400px;

@@ -699,7 +699,9 @@ i.fa-solid.fa-phone {
     text-align: center;
 }
 
-.rowsDescription {}
+.rowsDescription p{
+    font-size: 0;
+}
 
 .buttonWrap {
     grid-row: 2;
@@ -802,6 +804,7 @@ i.fa-solid.fa-phone {
     margin: auto;
     border-radius: 20px;
     z-index: 1000;
+    box-shadow: 1.5px 3px 15px rgba(255, 255, 255, 0.309);
 }
 .popupBody {
     display: flex;
@@ -809,9 +812,6 @@ i.fa-solid.fa-phone {
     justify-content: center;
     align-items: center;
     position: relative;
-
-
-
 }
 .popupClose {
     position: absolute;
@@ -864,5 +864,13 @@ i.fa-solid.fa-phone {
     background: rgba(195, 195, 195, 0.444);
     color: #fff;
     transition: all .2s ease;
+    box-shadow: 1.5px 3px 15px rgb(255, 255, 255);
 }
 
+section{
+    background: -webkit-linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
+    background: -moz-linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(103, 103, 103), rgb(0, 0, 0));
+    border-top: 2.5px solid red;
+    border-bottom: 2.5px solid red;
+}
