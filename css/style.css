@@ -888,12 +888,13 @@ section{
 .social{
     display: flex;
     justify-content: center;
+    border-bottom: .2px solid rgba(255, 255, 255, 0.1);
 }
 
 i.fa-brands.fa-telegram{
     font-size: 55px;
     padding: 20px;
-    color: #fff;
+    color: #0088cc80;
 }
 i.fa-brands.fa-telegram:active{
     font-size: 54px;
@@ -906,7 +907,7 @@ i.fa-brands.fa-telegram:hover{
 i.fa-brands.fa-viber{
     font-size: 55px;
     padding: 20px;
-    color: #fff;
+    color: #7460f280;
 }
 i.fa-brands.fa-viber:active{
     font-size: 54px;
@@ -919,10 +920,11 @@ i.fa-brands.fa-viber:hover{
 i.fa-brands.fa-whatsapp{
     font-size: 55px;
     padding: 20px;
-    color: #fff;
+    color: #5ffc7c80;
 }
 i.fa-brands.fa-whatsapp:active{
     font-size: 54px;
+    transition: all .1s ease;
 }
 i.fa-brands.fa-whatsapp:hover{
 
@@ -931,6 +933,14 @@ i.fa-brands.fa-whatsapp:hover{
     transition: all .2s ease-in;
 }
 
+.adressContacts{
+    padding-left: 15px;
+    border-bottom: .2px solid rgba(255, 255, 255, 0.1);
+}
+.adressContacts p{
+    color: #fff;
+    font-size: 25px;
+}
 
 
 
