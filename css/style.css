@@ -874,3 +874,64 @@ section{
     border-top: 2.5px solid red;
     border-bottom: 2.5px solid red;
 }
+
+/* contacts */
+
+.info h3{
+    color: #fff;
+    font-size: 44px;
+    padding-left: 15px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+i.fa-brands.fa-telegram{
+    font-size: 55px;
+    padding: 20px;
+    color: #fff;
+}
+i.fa-brands.fa-telegram:active{
+    font-size: 54px;
+}
+i.fa-brands.fa-telegram:hover{
+    color: #0088cc;
+    text-shadow:3px 7px 50px #000000;
+    transition: all .2s ease-in;
+}
+i.fa-brands.fa-viber{
+    font-size: 55px;
+    padding: 20px;
+    color: #fff;
+}
+i.fa-brands.fa-viber:active{
+    font-size: 54px;
+}
+i.fa-brands.fa-viber:hover{
+    color: #7360f2;
+    text-shadow:3px 7px 50px #000000;
+    transition: all .2s ease-in;
+}
+i.fa-brands.fa-whatsapp{
+    font-size: 55px;
+    padding: 20px;
+    color: #fff;
+}
+i.fa-brands.fa-whatsapp:active{
+    font-size: 54px;
+}
+i.fa-brands.fa-whatsapp:hover{
+
+    color: #5FFC7B;
+    text-shadow:3px 7px 50px #000000;
+    transition: all .2s ease-in;
+}
+
+
+
+
+
