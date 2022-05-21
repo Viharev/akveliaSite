@@ -13,7 +13,7 @@ $(document).ready(function() {
         image: {
 			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
 			titleSrc: function(item) {
-				return item.el.attr('title') + '<small>сауна Аквелия</small>';
+				return item.el.attr = 'Аквелия<small>Киров</small>';
 			}
 		}
 
