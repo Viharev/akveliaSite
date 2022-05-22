@@ -59,7 +59,7 @@
 
 .leftBar ul li{
     padding: 15px 25px;
-    min-width: 280px;
+    min-width: 100px;
 
 }
 
@@ -118,9 +118,9 @@
         width: 20%;
         display: flex;
     }
+
     .leftBar ul a li{
         font-size: 10px;
-        padding: 0;
     }
     
 }
@@ -129,6 +129,13 @@
     .rightBarImg{
         width: 100px;
         height: 100px;
+    }
+
+    .rightBarBlock p{
+        font-size: 10px;
+    }
+    .rightBarBtn{
+        font-size: 14px;
     }
 }
 
