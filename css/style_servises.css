@@ -107,6 +107,31 @@
     text-align: center;
 }
 
+@media (max-width: 768px) {
+
+    .rightBar{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .leftBar{
+        width: 20%;
+        display: flex;
+    }
+    .leftBar ul a li{
+        font-size: 10px;
+        padding: 0;
+    }
+    
+}
+
+@media (max-width: 530px){
+    .rightBarImg{
+        width: 100px;
+        height: 100px;
+    }
+}
+
 
 
 
