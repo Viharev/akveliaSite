@@ -107,6 +107,20 @@
     text-align: center;
 }
 
+.wrapRightBlock h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.wrapRightBlock p{
+    border: .5px solid black;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+
+
 @media (max-width: 768px) {
 
     .rightBar{
@@ -122,6 +136,7 @@
     .leftBar ul a li{
         font-size: 10px;
     }
+
     
 }
 
@@ -136,6 +151,9 @@
     }
     .rightBarBtn{
         font-size: 14px;
+    }
+    .wrapRightBlock h1{
+        font-size: 16px;
     }
 }
 
