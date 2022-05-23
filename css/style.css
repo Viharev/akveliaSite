@@ -26,7 +26,7 @@
 }
 
 .leftNav {
-    width: 60%;
+    width: 75%;
     height: 80px;
     display: flex;
     justify-content: space-evenly;
@@ -38,6 +38,7 @@
     align-items: center;
     justify-content: center;
     background: transparent;
+    color: #fff;
 }
 
 .schema {
@@ -50,7 +51,7 @@
 
 .schema a {
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 
 i.fa-solid.fa-location-dot {
@@ -69,12 +70,14 @@ i.fa-solid.fa-location-dot {
     background: transparent;
     cursor: pointer;
     text-transform: uppercase;
+    color: #fff;
 }
 
 .rightNav {
-    width: 40%;
+    width: 25%;
     height: 80px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -82,7 +85,7 @@ i.fa-solid.fa-location-dot {
 .phone {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: 80px;
     min-width: 200px;
     margin-right: 15px;
@@ -90,7 +93,7 @@ i.fa-solid.fa-location-dot {
 
 .phone a {
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 
 i.fa-solid.fa-phone {
@@ -586,7 +589,8 @@ i.fa-solid.fa-phone {
 
 .aboutImg {
     /* position: absolute; */
-    width: 300px;
+    max-width: 350px;
+    min-width: 270px;
     height: 300px;
     /* background: rgba(0, 0, 0, 0.122); */
     background-image: url('../img/atmosphere.jpg');
@@ -644,7 +648,8 @@ i.fa-solid.fa-phone {
 
 .aboutImgTwo {
     margin: 10px;
-    width: 300px;
+    max-width: 350px;
+    min-width: 270px;
     height: 300px;
     /* background: rgba(0, 0, 0, 0.122); */
     background-image: url('../img/veniki.jpg');
@@ -928,10 +933,41 @@ i.fa-brands.fa-whatsapp:active{
     transition: all .1s ease;
 }
 i.fa-brands.fa-whatsapp:hover{
-
     color: #5FFC7B;
     text-shadow:3px 7px 50px #000000;
     transition: all .2s ease-in;
+}
+i.fa-brands.fa-vk{
+    font-size: 55px;
+    padding: 20px;
+    color: #4c75a380;
+}
+i.fa-brands.fa-vk:active{
+    font-size: 54px;
+    transition: all .1s ease;
+}
+i.fa-brands.fa-vk:hover{
+    color: #4c75a3;
+    text-shadow:3px 7px 50px #000000;
+    transition: all .2s ease-in;
+}
+i.fa-solid.fa-xmark{
+    font-size: 40px;
+    padding: 5px;
+    color: #fff;
+}
+
+i.fa-solid.fa-message{
+    color: #fff;
+    font-size: 50px;
+}
+
+i.fa-solid.fa-message:hover{
+    color: rgb(131, 131, 131);
+}
+
+i.fa-solid.fa-message:active{
+    font-size: 49px;
 }
 
 .adressContacts{
