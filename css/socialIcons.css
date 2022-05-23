@@ -4,7 +4,7 @@ body{
 .openSocial {
     width: 70px;
     height: 70px;
-    /* background: #000; */
+    background: rgba(0, 0, 0);
     position: fixed;    
     left: 15px;
     bottom: 15px;
@@ -89,7 +89,7 @@ body{
 .closeSocial {
     width: 70px;
     height: 70px;
-    /* background: rgba(0, 0, 0, 0.078); */
+    background: rgba(0, 0, 0, 0.8);
     position: fixed;    
     left: 15px;
     bottom: 365px;
@@ -101,6 +101,6 @@ body{
     z-index: 11;
 }
 .closeSocial:hover{
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.9);
 }
 
