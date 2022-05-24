@@ -364,6 +364,9 @@ i.fa-solid.fa-phone {
     margin-top: 25px;
     margin-bottom: 25px;
     color: #fff;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 40%;
 
 }
 
@@ -968,6 +971,11 @@ i.fa-solid.fa-message:hover{
 
 i.fa-solid.fa-message:active{
     font-size: 49px;
+}
+
+i.fa-solid.fa-circle-xmark{
+    font-size: 25px;
+    color: #fff;
 }
 
 .adressContacts{
