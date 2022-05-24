@@ -21,19 +21,19 @@ body{
 .socialFixedWrap {
 }
 .socialfixxedIcons {
-    opacity: 0;
+    display: none;
     z-index: -1;
     
 }
 .activeSocialIcons{
-    opacity: 1;
+    display: block;
     z-index: 100000;
     transition: all .2s ease;
 }
 .whatsapp {
     width: 70px;
     height: 70px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0);
     position: fixed;    
     left: 15px;
     bottom: 85px;
@@ -47,7 +47,7 @@ body{
 .viber {
     width: 70px;
     height: 70px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0);
     position: fixed;    
     left: 15px;
     bottom: 155px;
@@ -61,7 +61,7 @@ body{
 .telegram {
     width: 70px;
     height: 70px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0);
     position: fixed;    
     left: 15px;
     bottom: 225px;
@@ -75,7 +75,7 @@ body{
 .vkontakte {
     width: 70px;
     height: 70px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0);
     position: fixed;    
     left: 15px;
     bottom: 295px;
