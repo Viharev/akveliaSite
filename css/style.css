@@ -977,7 +977,14 @@ i.fa-solid.fa-circle-xmark{
     font-size: 25px;
     color: #fff;
 }
-
+i.fa-solid.fa-phone{
+    font-size: 35px;
+    color: #fff;
+}
+i.fa-solid.fa-phone:hover{
+    color: rgb(163, 163, 163);
+    transform: rotate(25deg);
+}
 .adressContacts{
     padding-left: 15px;
     border-bottom: .2px solid rgba(255, 255, 255, 0.1);

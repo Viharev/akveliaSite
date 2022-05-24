@@ -86,13 +86,27 @@ body{
     justify-content: center;
     z-index: 11;
 }
+.telephone{
+    width: 70px;
+    height: 70px;
+    background: rgba(0, 0, 0);
+    position: fixed;    
+    left: 15px;
+    bottom: 365px;
+    z-index: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+}
 .closeSocial {
     width: 70px;
     height: 70px;
     background: rgba(0, 0, 0, 0.8);
     position: fixed;    
     left: 15px;
-    bottom: 365px;
+    bottom: 435px;
     z-index: 1;
     border-radius: 50%;
     display: flex;
