@@ -119,6 +119,15 @@
     margin-bottom: 25px;
 }
 
+.wrapRightBlock ul{
+    padding-left: 50px;
+}
+
+.wrapRightBlock ul li{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
 
 
 @media (max-width: 768px) {
@@ -147,13 +156,17 @@
     }
 
     .rightBarBlock p{
-        font-size: 10px;
+        font-size: 12px;
     }
     .rightBarBtn{
         font-size: 14px;
     }
     .wrapRightBlock h1{
         font-size: 16px;
+    }
+    .wrapRightBlock ul li{
+        font-size: 12px;
+        text-transform: none;
     }
 }
 
